@@ -16,7 +16,7 @@ export default function index() {
         <div>
         <Link
           href={{
-            pathname: `/vehicles/name`,
+            pathname: `/vehicles/personal`,
             query: { personName: 'greenacid',obj:"allme", againobj:"allagain" },
           }}
         >  About us

@@ -8,7 +8,8 @@ export default function person() {
     console.log("caterogy/id",route.query,route.query.vehicles,route.query.personal)
     return (
         <div>
-            Hello [vehicles]/personal.js
+            Hello from {route.query.vehicles} and itemsized is {route.query.personal} and attached routed query is &nbsp;
+            <b>{route.query.personName}</b>
         </div>
     )
 }
