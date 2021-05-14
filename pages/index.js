@@ -1,6 +1,7 @@
 import {useRouter} from "next/router"
 import Link from "next/link"
 import Head from "next/head";
+import  {Html} from "next/document"
 
 const comp = (
     <>
@@ -15,12 +16,11 @@ export default function index() {
     console.log("router",router.query)
     return (
         <main>
+        
         <Head>
           <title>App with nextjs Hotels</title>
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta name = "description" content="An nextjs Vercel Hotel"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
+          <meta name = "description" content="An nextjs Vercel Hotel. This hotel is in Sitapuri area. The location
+          is near Dabri Metro Station equipped with 24*7 water, electricity."/>
         </Head>
         <Link
           href={{
